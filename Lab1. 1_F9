@@ -1,0 +1,18 @@
+a=input("enter a value") 
+a=int(a) 
+b=input("enter b value") 
+b=int(b) 
+c=input("enter c value") 
+c=int(c) 
+average=(a+b+c) /3
+average=int(average) 
+print('average of three numbers is:',average) 
+total=a+b+c
+print('the total of three numbers is:',total)
+
+Output:
+enter a value3
+enter b value4
+enter c value5
+average of three numbers is: 4
+the total of three numbers is: 12
