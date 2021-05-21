@@ -1,0 +1,8 @@
+#if
+a=10
+if a<20:
+       print('a is <20') 
+       print('hi')
+Output
+a is <20
+hi
