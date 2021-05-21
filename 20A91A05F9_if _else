@@ -1,8 +1,9 @@
 #if else
-a=10
+a=int(input("enter a value") 
 if a%2==0:
         print('a is even')
 else:
         print('a is odd') 
 OUTPUT:
+enter a value10
 a is even
