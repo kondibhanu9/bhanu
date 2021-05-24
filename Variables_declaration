@@ -1,0 +1,17 @@
+#VARIABLES DECLARATION
+
+a=10
+b='python'
+c=2.7
+d='A'
+print(type(a)) 
+print(type(b)) 
+print(type(c))
+print(type(d))
+
+OUTPUT:
+
+<class 'int'>
+<class 'str'>
+<class 'float'>
+<class 'str'>
