@@ -1,0 +1,12 @@
+
+#if else with string data
+SOURCE CODE:
+name=input("enter name") 
+if name=="csec" or "cseb":
+        print("Valid student ") 
+else:
+        print("invalid student")
+
+Output:
+enter namecseb
+Valid student 
