@@ -1,0 +1,20 @@
+'''If else with string data
+   If the condition in if block is true then the 
+statements of if block are executed otherwise 
+else block statements are executed. 
+'''
+SOURCE CODE:
+
+name=input("enter name") 
+if name=="csec" or name=="cseb":
+        print("valid student ") 
+else:
+        print(" invalid student ")
+
+OUTPUT:
+enter namecsec
+valid student 
+
+test case:
+enter nameCSEC
+invalid student
