@@ -1,0 +1,19 @@
+
+SOURCE CODE:
+n=int(input("enter number ")) 
+if n%2==1:
+                          print(" Weird") 
+elif n%2==0 and n>=2 and  n<=5 or n>20:
+                          print("Not weird") 
+elif n%2==0 and n>=6 and n<=20:
+                          print("Weird") 
+else:
+                         print("Not weird ")
+
+
+OUTPUT:
+enter number 3
+ Weird
+
+enter number 24
+Not weird
