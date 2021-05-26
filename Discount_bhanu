@@ -5,20 +5,20 @@ d1=(10/100) *bill
 d2=(20/100) *bill
 d3=(30/100) *bill
 d4=(40/100) *bill
-if bill>=1000:
+if bill>1000:
              print( "discount",d1) 
              print("amount to be paid",bill-d1) 
-elif bill>=2000:
+elif bill>2000:
             print("discount", d2) 
             print(" amount to be paid ",bill-d2) 
-elif bill>=3000:
+elif bill>3000:
             print("discount", d3) 
             print(" amount to be paid ", bill-d3) 
-elif bill>=5000:
+elif bill>5000:
                            print (" discount", d4) 
                            print("amount to be paid", bill-d4) 
 else:
-           print(" Sorry ")
+           print(" Sorry ,no discount ")
 OUTPUT:
 
 enter bill 1200
