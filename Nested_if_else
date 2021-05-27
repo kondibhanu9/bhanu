@@ -1,0 +1,28 @@
+#nested if else
+
+SOURCE CODE:
+
+a=int(input("enter a")) 
+b=int(input("enter b")) 
+c=int(input("enter c")) 
+if a>b:
+       if a>c:
+             print("a is big") 
+       else:
+             print("c is big") 
+else:
+       if b>c:
+              print(" b is big") 
+       else:
+              print("c is big ") 
+ OUTPUT:
+
+enter a25
+enter b50
+enter c100
+c is big 
+
+enter a10
+enter b20
+enter c15
+ b is big
