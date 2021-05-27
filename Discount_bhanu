@@ -1,31 +1,35 @@
 Source code:
 
 bill=int(input("enter bill ")) 
-d1=(10/100) *bill
-d2=(20/100) *bill
-d3=(30/100) *bill
-d4=(40/100) *bill
-if bill>1000:
+if bill>1000 and bill<2000:
+             d1=(10/100) *bill
              print( "discount",d1) 
              print("amount to be paid",bill-d1) 
-elif bill>2000:
+elif bill>2000 and bill<3000:
+            d2=(20/100) *bill
             print("discount", d2) 
             print(" amount to be paid ",bill-d2) 
-elif bill>3000:
-            print("discount", d3) 
-            print(" amount to be paid ", bill-d3) 
+elif bill>3000 and bill<5000:
+             d3=(30/100) *bill
+             print("discount", d3) 
+             print(" amount to be paid ", bill-d3) 
 elif bill>5000:
-                           print (" discount", d4) 
-                           print("amount to be paid", bill-d4) 
+             d4=(40/100) *bill
+             print (" discount", d4) 
+             print("amount to be paid", bill-d4) 
 else:
            print(" Sorry ,no discount ")
-           print(" amount to be paid", bill) 
+           print(" amount to be paid",bill)
 OUTPUT:
 
 enter bill 1200
 discount 120.0
 amount to be paid 1080.0
 
-enter bill 2500
-discount 250.0
-amount to be paid 2250.0
+enter bill 2200
+discount 440.0
+amount to be paid  1760.0
+
+enter bill 500
+Sorry ,no discount 
+amount to be paid 500
