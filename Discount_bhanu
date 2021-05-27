@@ -13,7 +13,7 @@ elif bill>3000 and bill<5000:
              d3=(30/100) *bill
              print("discount", d3) 
              print(" amount to be paid ", bill-d3) 
-elif bill>5000:
+elif bill>=5000:
              d4=(40/100) *bill
              print (" discount", d4) 
              print("amount to be paid", bill-d4) 
