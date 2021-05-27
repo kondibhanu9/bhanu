@@ -19,6 +19,7 @@ elif bill>5000:
                            print("amount to be paid", bill-d4) 
 else:
            print(" Sorry ,no discount ")
+           print(" amount to be paid", bill) 
 OUTPUT:
 
 enter bill 1200
