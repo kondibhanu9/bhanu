@@ -1,0 +1,30 @@
+i=int(input("enter starting value "))
+n=int(input("enter ending value ")) 
+c=int(input(" Step count")) 
+while i>=n:
+          print(i) 
+          i-=c
+OUTPUT:
+
+enter starting value 10
+enter ending value 2
+ Step count2
+10
+8
+6
+4
+2
+
+enter starting value 10
+enter ending value 1
+ Step count1
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
