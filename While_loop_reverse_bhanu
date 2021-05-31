@@ -1,0 +1,62 @@
+n=int(input("enter number"))
+i=1
+reverse=0
+while(n>0):
+          print("step is",i)
+          rem=n%10
+          print("remainder  is",rem)
+          reverse=reverse*10+rem
+          print("reverse is", reverse) 
+          n=n//10
+          print("number is  ",n) 
+          i=i+1
+          print(reverse)
+         
+'''OUTPUT
+
+enter number123456789
+step is 1
+remainder  is 9
+reverse is 9
+number is   12345678
+9
+step is 2
+remainder  is 8
+reverse is 98
+number is   1234567
+98
+step is 3
+remainder  is 7
+reverse is 987
+number is   123456
+987
+step is 4
+remainder  is 6
+reverse is 9876
+number is   12345
+9876
+step is 5
+remainder  is 5
+reverse is 98765
+number is   1234
+98765
+step is 6
+remainder  is 4
+reverse is 987654
+number is   123
+987654
+step is 7
+remainder  is 3
+reverse is 9876543
+number is   12
+9876543
+step is 8
+remainder  is 2
+reverse is 98765432
+number is   1
+98765432
+step is 9
+remainder  is 1
+reverse is 987654321
+number is   0
+987654321      '''
