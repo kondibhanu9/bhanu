@@ -1,0 +1,19 @@
+n=int(input("enter number ")) 
+i=1
+iterations=0
+while i<=n//2:
+          iterations=iterations+1
+          if (n%i==0):
+                      print(i)
+          i=i+1
+print(n) 
+print(" No of iterations ", iterations)
+
+OUTPUT:
+
+enter number 8
+1
+2
+4
+8
+ No of iterations  4
