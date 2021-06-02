@@ -19,10 +19,10 @@ print('total of three numbers is:',total)
 average=(total)/3 #average of a,b, c
 print('the average of three numbers is:',average)
 
-OUTPUT:
+'''OUTPUT:
 
 enter a value3
 enter b value4
 enter c value5
 total of three numbers is: 12
-the average of three numbers is: 4.0
+the average of three numbers is: 4.0 '''
