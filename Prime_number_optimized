@@ -1,0 +1,27 @@
+n=int(input("enter number"))
+flag=0
+iterations=0
+for i in range(2, (n//2)+1) :
+                    iterations=iterations+1
+                    if n%i==0:
+                             flag+=1
+                             break
+print("no of iterations=", iterations) 
+if flag>0:
+        print(n, "not prime number")
+else:
+        print(n, " prime number")
+
+'''OUTPUT:
+enter number17
+no of iterations= 7
+17  prime number
+
+enter number3267
+no of iterations= 2
+3267 not prime number
+
+
+enter number8
+no of iterations= 1
+8 not prime number '''
