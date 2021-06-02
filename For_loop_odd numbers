@@ -1,0 +1,17 @@
+SOURCE CODE:
+
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+c=int(input("step count"))
+for number in range(s,e,c) :
+                print(number)
+
+'''OUTPUT:
+enter starting value1
+enter ending value11
+step count2
+1
+3
+5
+7
+9 '''
