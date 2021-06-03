@@ -1,0 +1,29 @@
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+sum1=0
+for i in range(s, e) :
+                     if i%2==1:
+                              sum1=sum1+i
+                     print("i is%d and sum1 is%d"%(i, sum1)) 
+
+print("sum1 is%d"%sum1)
+
+OUTPUT:
+
+enter starting value1
+enter ending value15
+i is1 and sum is1
+i is2 and sum is1
+i is3 and sum is4
+i is4 and sum is4
+i is5 and sum is9
+i is6 and sum is9
+i is7 and sum is16
+i is8 and sum is16
+i is9 and sum is25
+i is10 and sum is25
+i is11 and sum is36
+i is12 and sum is36
+i is13 and sum is49
+i is14 and sum is49
+sum is49
