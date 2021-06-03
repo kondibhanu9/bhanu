@@ -1,0 +1,25 @@
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+for i in range(s, e):
+                print(i)
+else:
+    print("for loop is terminated")
+    print("at %d value for loop is terminated"%i)
+
+OUTPUT:
+
+enter starting value1
+enter ending value11
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+for loop is terminated
+at 10 value for loop is terminated
+
