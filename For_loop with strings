@@ -1,0 +1,27 @@
+name=input("enter name")
+print(name) 
+for s in name:
+             print(s)
+
+'''OUTPUT:
+
+enter nameCSEC
+CSEC
+C
+S
+E
+C
+
+enter nameBhanu kondi
+Bhanu kondi
+B
+h
+a
+n
+u
+ 
+k
+o
+n
+d
+i   '''
