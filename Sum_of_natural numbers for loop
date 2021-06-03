@@ -1,0 +1,17 @@
+s=int(input("enter starting number"))
+e=int(input("enter ending number"))
+add=0
+for i in range(s, e):
+                    add=add+i
+print("sum is  %d"%add)
+
+OUTPUT:
+
+enter starting number1
+enter ending number10
+sum is  45
+
+enter starting number2
+enter ending number15
+sum is  104
+
