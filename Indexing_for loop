@@ -1,0 +1,56 @@
+name=input("enter name")
+print(name)
+print(name[0])  #indexing
+size=len(name)
+print("size is%d"%size) 
+#first way to fetch elements of string
+for i in name:
+             print(i)
+#another way to approach the elements of string
+for i in range(size):
+                    print(name[i])
+
+
+OUTPUT:
+
+enter namePYTHON PROGRAMMING
+PYTHON PROGRAMMING
+P
+size is18
+P
+Y
+T
+H
+O
+N
+ 
+P
+R
+O
+G
+R
+A
+M
+M
+I
+N
+G
+P
+Y
+T
+H
+O
+N
+ 
+P
+R
+O
+G
+R
+A
+M
+M
+I
+N
+G
+
