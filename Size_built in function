@@ -1,0 +1,13 @@
+name=input("enter name")
+print(name)
+print(name[0])  #indexing
+size=len(name)
+print("size is%d"%size) 
+
+OUTPUT:
+
+enter namebhanu
+bhanu
+b
+size is5
+
