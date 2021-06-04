@@ -1,0 +1,34 @@
+n=int(input("enter number"))
+for i in range(1, n+1):
+                     if n%i==0:
+                              print("i value is  %d"%i)
+                              print(i)
+                              n=int(input("enter number"))
+
+
+OUTPUT:
+enter number8
+i value is  1
+1
+i value is  2
+2
+i value is  4
+4
+i value is  8
+8
+
+#another way to print factors of given number
+
+n=int(input("enter number"))
+for i in range(1, n+1):
+                     if n%i==0:
+                              print(i)
+                              
+'''OUTPUT:
+
+enter number8
+1
+2
+4
+8  '''
+
