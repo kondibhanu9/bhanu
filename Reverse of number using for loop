@@ -1,0 +1,40 @@
+n=int(input("enter a number"))
+reverse=0
+for i in range(0,n) :
+                    if n>0:
+                          print ("i value is%d "%i )
+                          rem=n%10
+                          print(" rem is %d"%rem) 
+                          reverse=reverse*10+rem
+                          print("reverse is  %d"%reverse) 
+                          n=n//10  
+                          print("number is  %d"%n) 
+print("reverse of given number is  %d"%reverse) 
+   
+
+OUTPUT:
+                    
+enter a number12345
+i value is0 
+ rem is 5
+reverse is  5
+number is  1234
+i value is1 
+ rem is 4
+reverse is  54
+number is  123
+i value is2 
+ rem is 3
+reverse is  543
+number is  12
+i value is3 
+ rem is 2
+reverse is  5432
+number is  1
+i value is4 
+ rem is 1
+reverse is  54321
+number is  0
+reverse of given number is  54321
+
+                       
