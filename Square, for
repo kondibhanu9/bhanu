@@ -1,0 +1,19 @@
+#square of number using for loop
+
+
+n=int(input("enter number"))
+for i in range(n):
+              print(i*i)
+'''OUTPUT
+enter number10
+0
+1
+4
+9
+16
+25
+36
+49
+64
+81  '''
+                     
