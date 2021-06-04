@@ -1,0 +1,38 @@
+
+# printing 10 to 1 using for loop
+
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+for i in range(s, e ,-1) :
+                       print(i)
+ OUTPUT:
+                      
+enter starting value10
+enter ending value0
+10
+9
+8
+7
+6
+5
+4
+3
+2
+1
+
+#decrementing by -2 example
+
+s=int(input("enter starting value"))
+e=int(input("enter ending value"))
+for i in range(s, e ,-2) :
+                       print(i)
+                       
+OUTPUT:
+enter starting value10
+enter ending value0
+10
+8
+6
+4
+2
+
