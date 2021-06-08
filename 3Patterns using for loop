@@ -1,0 +1,64 @@
+#pattern1
+
+rows=5
+cols=4
+for i in range(rows):
+      for j in range(cols):
+                 print("*", end="") 
+      print("\n")
+
+OUTPUT:
+
+****
+
+****
+
+****
+
+****
+
+****
+
+#pattern2
+
+rows=5
+cols=4
+for i in range(rows):
+      for j in range(cols):
+                 print(j, end="") 
+      print("\n")
+
+OUTPUT:
+
+0123
+
+0123
+
+0123
+
+0123
+
+0123
+
+#pattern3
+
+rows=5
+cols=4
+for i in range(rows):
+      for j in range(cols):
+                 print(i, end="") 
+      print("\n")
+
+OUTPUT:
+
+0000
+
+1111
+
+2222
+
+3333
+
+4444
+
+
