@@ -1,0 +1,35 @@
+#AIM:
+    To implement a program that asks the user 
+for their name and how many times to print it
+the program prints the user's name for specified
+number of times. 
+
+SOURCE CODE:
+
+name=input("enter your name")
+n=int(input("enter how many times to print"))
+i=1
+while i<=n:           #condition checking
+          print(name) #printing name
+          i=i+1       #incrementing
+
+'''OUTPUT:
+
+enter your namePython programming
+enter how many times to print15
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+Python programming
+'''
