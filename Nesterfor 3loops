@@ -1,0 +1,87 @@
+outerloop =0
+innerloop_k=0
+innerloop_j=0
+print( "i j k") 
+for i in range(4):
+         outerloop+=1
+         for j in range(4):
+                  innerloop_j+=1
+                  for k in range(4):
+                         innerloop_k+=1
+                         print(i, j, k)
+print("---loops completed----")
+print("outerloop executed for %d times"%outerloop) 
+print("innerloop executed for %d times"%innerloop_k) 
+
+OUTPUT:
+
+i j k
+0 0 0
+0 0 1
+0 0 2
+0 0 3
+0 1 0
+0 1 1
+0 1 2
+0 1 3
+0 2 0
+0 2 1
+0 2 2
+0 2 3
+0 3 0
+0 3 1
+0 3 2
+0 3 3
+1 0 0
+1 0 1
+1 0 2
+1 0 3
+1 1 0
+1 1 1
+1 1 2
+1 1 3
+1 2 0
+1 2 1
+1 2 2
+1 2 3
+1 3 0
+1 3 1
+1 3 2
+1 3 3
+2 0 0
+2 0 1
+2 0 2
+2 0 3
+2 1 0
+2 1 1
+2 1 2
+2 1 3
+2 2 0
+2 2 1
+2 2 2
+2 2 3
+2 3 0
+2 3 1
+2 3 2
+2 3 3
+3 0 0
+3 0 1
+3 0 2
+3 0 3
+3 1 0
+3 1 1
+3 1 2
+3 1 3
+3 2 0
+3 2 1
+3 2 2
+3 2 3
+3 3 0
+3 3 1
+3 3 2
+3 3 3
+---loops completed----
+outerloop executed for 4 times
+innerloop executed for 64 times
+
+Process finished.
