@@ -1,0 +1,36 @@
+
+#AIM:
+    To implement a program that asks the user 
+to enter the weight in kilograms and converts
+it to pounds, there are 2.2 pounds in a  
+kilogram. 
+
+SOURCE CODE
+
+kilogram=int(input("enter weight in kilograms"))
+print("kilogram is converting into pound")
+pound=2.2*kilogram
+result=pound
+print("weght in pounds is  %f"%result)
+print("%d kilograms in pounds is  %f"%(kilogram, pound) ) 
+
+'''OUTPUT:
+
+enter weight in kilograms2790
+kilogram is converting into pound
+weght in pounds is  6138.000000
+2790 kilograms in pounds is  6138.000000
+
+
+enter weight in kilograms124
+kilogram is converting into pound
+weght in pounds is  272.800000
+124 kilograms in pounds is  272.800000
+
+
+enter weight in kilograms20
+kilogram is converting into pound
+weght in pounds is  44.000000
+20 kilograms in pounds is  44.000000
+
+'''
