@@ -1,0 +1,20 @@
+#AIM:
+    To implement a program that uses for loop
+to print the numbers 8,11,14,17,...83,86,89.
+
+'''theory
+for loop syntax is-
+for variablename in range([start], stop, [stepcount]): 
+                                             Statement(s) 
+
+Here in is membership operator
+'''
+SOURCE CODE:
+
+for i in range(8, 90,3):       #starting value is 8,ending value is 90 and step count is 3
+                   print(i,end=",") 
+
+#OUTPUT:
+
+8,11,14,17,20,23,26,29,32,35,38,41,44,47,
+50,53,56,59,62,65,68,71,74,77,80,83,86,89,
