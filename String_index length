@@ -1,0 +1,18 @@
+string=input("enter string")
+print(string)
+print(string[0])#accessing character from string
+print(string[4])
+print("string is %s"%(string)) 
+result_size=len(string)
+print("size of given string is  %d"%(result_size))
+
+OUTPUT:
+
+enter stringpython programming
+python programming
+p
+o
+string is python programming
+size of given string is  18
+
+Process finished.
