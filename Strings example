@@ -1,0 +1,30 @@
+#example
+
+string=input("enter string")
+print(string)
+print("string is %s"%(string))
+
+OUTPUT:
+
+enter stringpython programming
+python programming
+string is python programming
+
+#exanple2
+
+print("size of given string is  %d"%(result_size))string=input("enter string")
+print(string)
+print(string[0])#accessing character from string
+print(string[4])
+print("string is %s"%(string)) 
+
+OUTPUT:
+
+enter stringcsec students
+csec students
+c
+ 
+string is csec students
+
+
+
