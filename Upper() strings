@@ -1,0 +1,17 @@
+s=input("enter string:")
+print("the string is %s"%s) 
+result=s.upper()
+print("the result is %s"%result)
+
+OUTPUT:
+
+enter string:aditya engineering college
+the string is aditya engineering college
+the result is ADITYA ENGINEERING COLLEGE
+
+enter string:python programming
+the string is python programming
+the result is PYTHON PROGRAMMING
+
+
+
