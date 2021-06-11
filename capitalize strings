@@ -1,0 +1,17 @@
+#capitalize() method
+
+s= input("enter string")
+print(s)
+result=s.capitalize()
+print("After capitalize  %s"%(result)) 
+
+OUTPUT:
+
+enter stringalison heck
+alison heck
+After capitalize  Alison heck
+
+enter stringchris alan
+chris alan
+After capitalize  Chris alan
+
