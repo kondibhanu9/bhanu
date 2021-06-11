@@ -1,0 +1,18 @@
+s=input("enter string")
+print("the string is %s"%s) 
+result=s.lower()
+print("the result is %s"%result)
+
+OUTPUT:
+
+enter string:Csec Section
+the string is Csec Section
+the result is csec section
+
+enter string:csec section
+the string is csec section
+the result is csec section
+
+enter string:Python Programming
+the string is Python Programming
+the result is python programming
