@@ -1,0 +1,19 @@
+s= input("enter string")
+print(s)
+result=s.title()
+print("After title  %s"%(result)) 
+ 
+OUTPUT:
+
+enter stringaditya engineering college
+aditya engineering college
+After title  Aditya Engineering College
+
+enter stringalison heck
+alison heck
+After title  Alison Heck
+
+enter stringalison heck
+alison heck
+After title  Alison Heck
+
