@@ -1,0 +1,32 @@
+#max and min character from string
+
+s= input("enter string")
+print(s)
+result1=len(s)
+print("length of %s is %d"%(s,result1))
+result2=max(s)
+print("maximum character from string is  %s"%(result2)) 
+result3=min(s)
+print("minimum character from string is  %s"%(result3))
+
+OUTPUT:
+
+enter stringCSECSECTION
+CSECSECTION
+length of CSECSECTION is 11
+maximum character from string is  T
+minimum character from string is  C
+
+
+enter stringpythonprogramming
+pythonprogramming
+length of pythonprogramming is 17
+maximum character from string is  y
+minimum character from string is  a
+
+enter stringpython programming
+python programming
+length of python programming is 18
+maximum character from string is  y
+minimum character from string is   
+
