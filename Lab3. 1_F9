@@ -1,0 +1,31 @@
+
+#AIM:
+To print a triangle using for loop, and allow 
+the user to specify how high the triangle should be. 
+
+#SOURCE CODE
+
+rows=int(input("enter the number of rows"))
+for i in range(rows):
+  for j in range(i+1):
+                   print("*",end=" ")
+  print("\n") 
+     
+ 
+OUTPUT:
+
+enter the number of rows4
+* 
+
+* * 
+
+* * * 
+
+* * * * 
+
+
+
+
+	
+
+
