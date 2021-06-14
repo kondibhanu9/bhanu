@@ -1,0 +1,29 @@
+s=input("enter string")
+print("original string %s"%s)
+res=s.split(":") #: is seperator
+print("after split %s"%res) 
+
+'''OUTPUT
+
+enter stringI am:csec student:aditya engineering college
+original string I am:csec student:aditya engineering college
+after split ['I am', 'csec student', 'aditya engineering college']
+
+enter stringpython programming is very easy
+original string python programming is very easy
+after split ['python programming is very easy']
+'''
+
+#split method space separator
+
+s=input("enter string")
+print("original string %s"%s)
+res=s.split(" ")   #space is seperator
+print("after split %s"%res) 
+
+'''OUTPUT:
+enter stringpython programming is very easy
+original string python programming is very easy
+after split ['python', 'programming', 'is', 'very', 'easy']
+
+'''
