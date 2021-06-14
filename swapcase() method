@@ -1,0 +1,15 @@
+s=input("enter string")
+print("original string %s"%s)
+res=s.swapcase() 
+print("after swapcase %s"%res) 
+
+'''OUTPUT:
+
+enter stringpYThon progRamminG 
+original string pYThon progRamminG 
+after swapcase PytHON PROGrAMMINg 
+
+enter stringAditya engineering College
+original string Aditya engineering College
+after swapcase aDITYA ENGINEERING cOLLEGE
+'''
