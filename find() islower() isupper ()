@@ -1,0 +1,44 @@
+#find() method
+
+s=input("enter string")
+print(s)
+res=s.find("am")
+print(res)
+
+OUTPUT:
+
+enter stringhow are you, i am fine
+how are you, i am fine
+15
+
+#isupper() 
+
+s=input("enter string")
+print(s) 
+res=s.isupper()
+print(res)
+
+OUTPUT
+enter stringPYTHON
+PYTHON
+True
+
+enter stringpython
+python
+False
+
+#islower() 
+
+s=input("enter string")
+print(s) 
+res=s.islower()
+print(res)
+
+OUTPUT:
+enter stringpythoN
+False
+
+enter stringpython programming
+True
+
+
