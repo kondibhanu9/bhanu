@@ -36,9 +36,11 @@ print(res)
 
 OUTPUT:
 enter stringpythoN
+pythoN
 False
 
 enter stringpython programming
+python programming
 True
 
 
