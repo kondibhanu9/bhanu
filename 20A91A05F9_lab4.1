@@ -1,0 +1,25 @@
+string1 = input("Enter first string: ")
+len1 = len(string1)
+string2 = input("enter second string:")
+len2 = len(string2)
+if len1 == len2:
+      result = ""
+      for i in range(len1):
+         result+= string1[i]
+         result+= string2[i]
+      print(result)
+else: 
+    print("length of two strings is not equal")
+
+'''
+OUTPUT
+Enter first string:ABCDE
+enter second string:abcde
+AaBbCcDdEe
+
+Enter first string:ABCD
+enter second string:abcde
+length of two strings is not equal
+
+
+'''
