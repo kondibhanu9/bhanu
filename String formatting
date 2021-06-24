@@ -1,0 +1,18 @@
+s=input("enter string")
+print("length of string")
+size=len(s)
+#string formatting using %s
+print("length of  %s is %d"%(s,size))
+#string formatting using f prefix string
+print(f"length of {s} is {size}") 
+#string formatting using . format
+print("lenth of {} is {}".format(s, size))
+
+OUTPUT
+
+enter stringpython csec
+length of string
+length of  python csec is 11
+length of python csec is 11
+lenth of python csec is 11
+
