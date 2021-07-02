@@ -1,0 +1,46 @@
+list=["CSE","IT",1,2,4,"MECH","ECE",456,765,765]
+n=int(input("enter your choice 1 to delete integer value and any value other than 1 to delete string")) 
+if n==1:
+      i=int(input("enter element to delete"))
+      list. remove(i) 
+      print("list after removing element")
+      print(list)
+else :
+      s=input("enter string to delete")
+      list. remove(s)
+      print("list after removing element")
+      print(list)
+#pop()     
+p=int(input("enter position of element to delete"))
+pop_element=list.pop(p)
+print("deleted element ")
+print(pop_element)
+print("list after pop()")
+print(list)
+top_pop=list.pop()
+print("after removing top element")
+print(top_pop)
+print(list)
+#list
+print("after remove()& pop() the list is")
+print(list)
+
+
+'''OUTPUT
+
+enter your choice 1 to delete integer value and any value other than 1 to delete string1
+enter element to delete2
+list after removing element
+['CSE', 'IT', 1, 4, 'MECH', 'ECE', 456, 765, 765]
+enter position of element to delete5
+deleted element 
+ECE
+list after pop()
+['CSE', 'IT', 1, 4, 'MECH', 456, 765, 765]
+after removing top element
+765
+['CSE', 'IT', 1, 4, 'MECH', 456, 765]
+after remove()& pop() the list is
+['CSE', 'IT', 1, 4, 'MECH', 456, 765]
+'''
+
