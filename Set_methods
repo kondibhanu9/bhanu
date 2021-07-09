@@ -1,0 +1,103 @@
+s1={1, 2,3,4,5}
+s2={4, 5,6,7,8}
+#difference
+s1.difference_update(s2)
+print("difference update:")
+print(s1)
+r1=s1.difference(s2)
+print("difference is:")
+print(r1)
+#symmetric difference
+r2=s1.symmetric_difference(s2)
+print("symmetric differrnce :")
+print(r2)
+s1.symmetric_difference_update(s2)
+print("symmetric difference update")
+print(s1)
+#union
+res=s1.union(s2)
+print("union is")
+print(res) 
+#add
+s1.add(9)
+print("after add")
+print(s1)
+#disjoint
+res=s1.isdisjoint(s2)
+print("disjoint :")
+print(res)
+#subset and superset
+res=s1.issubset(s2)
+print("s1 is subset of s2")
+print(res)
+res=s1.issuperset(s2)
+print("s1 is superset of s2")
+print(res)
+res=s2.issuperset(s1)
+print("s2 is superset of s1")
+print(res)
+res=s2.issubset(s1)
+print("s2 is subset of s1")
+print(res)
+#pop
+s1.pop()
+print("after pop()")
+print(s1)
+res=s1.pop()
+print("popped element is%d"%res)
+print(res)
+#remove
+s1. remove(5)
+print("after remove 5 in s1")
+print(s1)
+s2.remove(4) 
+print("after removing 4 in s2")
+print(s2)
+#intersection
+s1.intersection_update(s2)
+print("intersection_update:")
+print(s1)
+res=s1.intersection(s2)
+print("intersection")
+print(res)
+
+'''
+OUTPUT:
+  
+difference update:
+{1, 2, 3}
+difference is:
+{1, 2, 3}
+symmetric differrnce :
+{1, 2, 3, 4, 5, 6, 7, 8}
+symmetric difference update
+{1, 2, 3, 4, 5, 6, 7, 8}
+union is
+{1, 2, 3, 4, 5, 6, 7, 8}
+after add
+{1, 2, 3, 4, 5, 6, 7, 8, 9}
+disjoint :
+False
+s1 is subset of s2
+False
+s1 is superset of s2
+True
+s2 is superset of s1
+False
+s2 is subset of s1
+True
+after pop()
+{2, 3, 4, 5, 6, 7, 8, 9}
+popped element is2
+2
+after remove 5 in s1
+{3, 4, 6, 7, 8, 9}
+after removing 4 in s2
+{5, 6, 7, 8}
+intersection_update:
+{8, 6, 7}
+intersection
+{8, 6, 7}
+
+'''
+           
