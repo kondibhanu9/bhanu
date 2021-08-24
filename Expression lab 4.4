@@ -1,0 +1,23 @@
+SOURCE CODE:
+expr=raw_input("enter the expression")
+print(expr)
+conv_expr=''
+for i in range(len(expr)-1):
+  if expr[i].isalnum() and(expr[i+1].isalpha or expr[i+1]=='(') :
+         conv_expr+=expr[i]+'*'
+  elif expr[i]==') ' and expr[i+1]=='(':
+         conv_expr+=expr[i]+'*'
+  elif expr[i]==')' and expr[i+1].isalnum():
+         conv_expr+=expr[i]+'*'
+  else:
+       conv_expr+=expr[i]
+       
+conv_expr+=expr[i+1]
+print(conv_expr)
+
+'''OUTPUT
+enter the expression3xy
+3xy
+3*x*y
+'''
+
